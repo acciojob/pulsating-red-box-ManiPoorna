@@ -1,12 +1,12 @@
 /*  your css code here. If applicable */
 .box{
-	transition:1s;
+	
 	height: 100px;
 	width: 100px;
 	background:red;
-	animation : Pulse 1s infinite ease-in-out;
+	animation : pulse 1s infinite ease-in-out;
 }
-@keyframes Pulse{
+@keyframes pulse{
 	0%{
 		width:100px;
 		height:100px;
