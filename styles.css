@@ -1,1 +1,20 @@
 /*  your css code here. If applicable */
+.div{
+	transition:1s;
+	height: 100px;
+	width: 100px;
+	background:red;
+	animation : pulse 1s infinite;
+}
+@keyframes pulse{
+	0%{
+		width:100px;
+		height:100px;
+	}
+	50%{
+		transform:scale(1.1)
+	}
+	100%{
+		transform:scale(1);
+	}
+}
